@@ -3,12 +3,12 @@
     <div class="w-full max-w-2xl">
       <!-- Contextual Prompt -->
       <div class="text-center mb-8">
-        <h1 class="text-2xl font-light text-gray-600 mb-2">
-          {{ contextualPrompt }}
-        </h1>
-        <div class="text-sm text-gray-400">
+        <div class="text-sm text-gray-400 mb-2">
           {{ timeContext }}
         </div>
+        <h1 class="text-2xl font-light text-gray-600">
+          {{ contextualPrompt }}
+        </h1>
       </div>
 
       <!-- Natural Input -->
